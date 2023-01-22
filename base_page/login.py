@@ -15,7 +15,6 @@ def open_page_and_login(url='/', width=1920, height=1080):
 
         form_login.s('#username').type(email)
         form_login.s('#password').type(password)
-        form_login.s('#kc-login').click()
         submit(form_login.s('#kc-login')).submit_button_click()
 
     login()
