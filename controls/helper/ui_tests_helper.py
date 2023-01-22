@@ -8,14 +8,14 @@ def double_click_to(x: int, y: int):
     def action(source: selene.Element):
         ActionChains(source.config.driver).move_by_offset(x, y).double_click().perform()
 
-    return Command(f'click with offset x {x}, y {y}', action)
+    return Command(f'double click to x {x}, y {y}', action)
 
 
 def drag_and_drop_to(x: int, y: int):
     def action(source: selene.Element):
         ActionChains(source.config.driver).drag_and_drop_by_offset(source(), x, y).perform()
 
-    return Command(f'drag with x {x}, y {y}', action)
+    return Command(f'drag and drop to x {x}, y {y}', action)
 
 
 def url_open_size(url='/', width=1920, height=1080):
