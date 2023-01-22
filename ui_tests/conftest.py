@@ -3,7 +3,7 @@ import pytest
 from selene.support.shared import browser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from utils import attach
+from auto_test_geocode.utils import attach
 from selene import Browser, Config
 from dotenv import load_dotenv
 

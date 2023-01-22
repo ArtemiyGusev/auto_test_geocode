@@ -2,9 +2,9 @@ import allure
 from allure_commons.types import Severity
 from selene.support.shared.jquery_style import s
 from selene import be
-from base_page.login import open_page_and_login
-from base_page.interface_map import object_creation_mode
-from controls.helper.ui_tests_helper import double_click_to, drag_and_drop_to
+from auto_test_geocode.base_page.login import open_page_and_login
+from auto_test_geocode.base_page.interface_map import object_creation_mode
+from auto_test_geocode.controls.helper.ui_tests_helper import double_click_to, drag_and_drop_to
 
 
 '''

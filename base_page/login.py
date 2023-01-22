@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from selene.support.shared.jquery_style import s
-from controls.helper.ui_tests_helper import url_open_size
+from auto_test_geocode.controls.helper.ui_tests_helper import url_open_size
 
 
 def open_page_and_login(url='/', width=1920, height=1080):
